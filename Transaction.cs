@@ -21,6 +21,21 @@ public class Transaction
     // This method prints all information about the transaction to the console
     public void ShowInfo()
     {
+        // If amount is positive, show in green (income)
+        if (Amount >= 0)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+        }
+        // If amount is negative, show in red (expense)
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+        }
+
         Console.WriteLine($"{Date} | {Category} | {Description} | {Amount}");
+
+        // Reset color back to default
+        Console.ResetColor();
     }
+
 }
