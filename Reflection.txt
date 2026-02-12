@@ -1,0 +1,11 @@
+﻿1. Hur hjälpte klasser och metoder dig att organisera programmet?
+Klasser och metoder hjälpte mig att dela upp programmet i olika delar med tydliga ansvar.
+Transaction-klassen representerar en enskild transaktion, BudgetManager hanterar logiken
+och Program.cs innehåller menyn och användarens interaktion.
+Detta gjorde koden mer strukturerad och lättare att förstå.
+
+2. Vilken del av projektet var mest utmanande?
+Den mest utmanande delen av projektet var att arbeta med GitHub,
+speciellt branches, pull requests och branch protection.
+Det tog tid att förstå arbetsflödet, men det gav mig en bättre förståelse
+för hur man arbetar professionellt med versionshantering.
